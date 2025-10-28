@@ -32,7 +32,21 @@ export default function Home() {
         Cargando...
       </div>
       <Boton />
-      <button onClick={obtProducto}>Obtener Producto</button>
+      <button
+        onClick={obtProducto}
+        style={{
+          backgroundColor: "rgb(242, 198, 65)",
+          color: "rgb(70, 0, 132)",
+          fontWeight: "bold",
+          fontFamily: "Jockey One",
+          padding: "8px 4px",
+          borderColor: "#daa402ff",
+          borderRadius: "10px",
+          cursor: "pointer",
+        }}
+      >
+        Obtener Producto
+      </button>
     </div>
   );
 }

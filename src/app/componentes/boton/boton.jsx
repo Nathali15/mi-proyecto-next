@@ -1,6 +1,8 @@
+import './style.boton.css'
+
 const Boton = () => {
     return (
-        <button>Presioname</button>
+        <button className='Boton'>Presioname</button>
     )
 }
 export default Boton
