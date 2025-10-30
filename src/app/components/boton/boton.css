@@ -1,0 +1,15 @@
+.Boton {
+    background-color: rgb(70, 0, 132);
+    color: rgb(242, 198, 65);
+    font-weight: bold;
+    font-family: 'Jockey One';
+    padding: 8px 4px;
+    border-color: #9c03c6bc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Boton:hover {
+    background-color: rgba(99, 0, 192, 0.896);
+    color: rgb(253, 240, 53);
+}
