@@ -1,8 +1,14 @@
+import { useState } from 'react'
 import './style.boton.css'
 
-const Boton = () => {
-    return (
-        <button className='Boton'>Presioname</button>
+export default function Boton() {
+    const [presionado, setPresionado] = useState(false)
+
+    const handleClick = () => {
+        setPresionado((prevState) => !prevState);
+
+    }
+    return (<button className='Boton' onClick={handleClick}>
+        {presionado ? "Presionado" : "Presioname"}</button>
     )
 }
-export default Boton
